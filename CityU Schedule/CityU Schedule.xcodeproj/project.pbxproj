@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B22545641B96EA5800A61944 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22545631B96EA5800A61944 /* AppDelegate.swift */; };
+		B22545661B96EA5800A61944 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22545651B96EA5800A61944 /* ViewController.swift */; };
+		B22545691B96EA5800A61944 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22545671B96EA5800A61944 /* Main.storyboard */; };
+		B225456B1B96EA5800A61944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B225456A1B96EA5800A61944 /* Assets.xcassets */; };
+		B225456E1B96EA5800A61944 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B225456C1B96EA5800A61944 /* LaunchScreen.storyboard */; };
+		B22545791B96EA5800A61944 /* CityU_ScheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22545781B96EA5800A61944 /* CityU_ScheduleTests.swift */; };
+		B22545841B96EA5800A61944 /* CityU_ScheduleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22545831B96EA5800A61944 /* CityU_ScheduleUITests.swift */; };
+		B22545931B96EACA00A61944 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22545921B96EACA00A61944 /* Session.swift */; };
+		B22545951B96EB7A00A61944 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22545941B96EB7A00A61944 /* Course.swift */; };
+		B22545971B96EDB900A61944 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22545961B96EDB900A61944 /* Schedule.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B22545751B96EA5800A61944 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B22545581B96EA5800A61944 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B225455F1B96EA5800A61944;
+			remoteInfo = "CityU Schedule";
+		};
+		B22545801B96EA5800A61944 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B22545581B96EA5800A61944 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B225455F1B96EA5800A61944;
+			remoteInfo = "CityU Schedule";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B22545601B96EA5800A61944 /* CityU Schedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CityU Schedule.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22545631B96EA5800A61944 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B22545651B96EA5800A61944 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B22545681B96EA5800A61944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B225456A1B96EA5800A61944 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B225456D1B96EA5800A61944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B225456F1B96EA5800A61944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B22545741B96EA5800A61944 /* CityU ScheduleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CityU ScheduleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22545781B96EA5800A61944 /* CityU_ScheduleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityU_ScheduleTests.swift; sourceTree = "<group>"; };
+		B225457A1B96EA5800A61944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B225457F1B96EA5800A61944 /* CityU ScheduleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CityU ScheduleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22545831B96EA5800A61944 /* CityU_ScheduleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityU_ScheduleUITests.swift; sourceTree = "<group>"; };
+		B22545851B96EA5800A61944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B22545921B96EACA00A61944 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Class/Session.swift; sourceTree = "<group>"; };
+		B22545941B96EB7A00A61944 /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Course.swift; path = Class/Course.swift; sourceTree = "<group>"; };
+		B22545961B96EDB900A61944 /* Schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Schedule.swift; path = Class/Schedule.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B225455D1B96EA5800A61944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22545711B96EA5800A61944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B225457C1B96EA5800A61944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B22545571B96EA5800A61944 = {
+			isa = PBXGroup;
+			children = (
+				B22545621B96EA5800A61944 /* CityU Schedule */,
+				B22545771B96EA5800A61944 /* CityU ScheduleTests */,
+				B22545821B96EA5800A61944 /* CityU ScheduleUITests */,
+				B22545611B96EA5800A61944 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B22545611B96EA5800A61944 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B22545601B96EA5800A61944 /* CityU Schedule.app */,
+				B22545741B96EA5800A61944 /* CityU ScheduleTests.xctest */,
+				B225457F1B96EA5800A61944 /* CityU ScheduleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B22545621B96EA5800A61944 /* CityU Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				B22545911B96EA8A00A61944 /* Class */,
+				B22545631B96EA5800A61944 /* AppDelegate.swift */,
+				B22545651B96EA5800A61944 /* ViewController.swift */,
+				B22545671B96EA5800A61944 /* Main.storyboard */,
+				B225456A1B96EA5800A61944 /* Assets.xcassets */,
+				B225456C1B96EA5800A61944 /* LaunchScreen.storyboard */,
+				B225456F1B96EA5800A61944 /* Info.plist */,
+			);
+			path = "CityU Schedule";
+			sourceTree = "<group>";
+		};
+		B22545771B96EA5800A61944 /* CityU ScheduleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B22545781B96EA5800A61944 /* CityU_ScheduleTests.swift */,
+				B225457A1B96EA5800A61944 /* Info.plist */,
+			);
+			path = "CityU ScheduleTests";
+			sourceTree = "<group>";
+		};
+		B22545821B96EA5800A61944 /* CityU ScheduleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B22545831B96EA5800A61944 /* CityU_ScheduleUITests.swift */,
+				B22545851B96EA5800A61944 /* Info.plist */,
+			);
+			path = "CityU ScheduleUITests";
+			sourceTree = "<group>";
+		};
+		B22545911B96EA8A00A61944 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				B22545921B96EACA00A61944 /* Session.swift */,
+				B22545941B96EB7A00A61944 /* Course.swift */,
+				B22545961B96EDB900A61944 /* Schedule.swift */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B225455F1B96EA5800A61944 /* CityU Schedule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B22545881B96EA5800A61944 /* Build configuration list for PBXNativeTarget "CityU Schedule" */;
+			buildPhases = (
+				B225455C1B96EA5800A61944 /* Sources */,
+				B225455D1B96EA5800A61944 /* Frameworks */,
+				B225455E1B96EA5800A61944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CityU Schedule";
+			productName = "CityU Schedule";
+			productReference = B22545601B96EA5800A61944 /* CityU Schedule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B22545731B96EA5800A61944 /* CityU ScheduleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B225458B1B96EA5800A61944 /* Build configuration list for PBXNativeTarget "CityU ScheduleTests" */;
+			buildPhases = (
+				B22545701B96EA5800A61944 /* Sources */,
+				B22545711B96EA5800A61944 /* Frameworks */,
+				B22545721B96EA5800A61944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B22545761B96EA5800A61944 /* PBXTargetDependency */,
+			);
+			name = "CityU ScheduleTests";
+			productName = "CityU ScheduleTests";
+			productReference = B22545741B96EA5800A61944 /* CityU ScheduleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B225457E1B96EA5800A61944 /* CityU ScheduleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B225458E1B96EA5800A61944 /* Build configuration list for PBXNativeTarget "CityU ScheduleUITests" */;
+			buildPhases = (
+				B225457B1B96EA5800A61944 /* Sources */,
+				B225457C1B96EA5800A61944 /* Frameworks */,
+				B225457D1B96EA5800A61944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B22545811B96EA5800A61944 /* PBXTargetDependency */,
+			);
+			name = "CityU ScheduleUITests";
+			productName = "CityU ScheduleUITests";
+			productReference = B225457F1B96EA5800A61944 /* CityU ScheduleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B22545581B96EA5800A61944 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = ParseCool;
+				TargetAttributes = {
+					B225455F1B96EA5800A61944 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					B22545731B96EA5800A61944 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B225455F1B96EA5800A61944;
+					};
+					B225457E1B96EA5800A61944 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B225455F1B96EA5800A61944;
+					};
+				};
+			};
+			buildConfigurationList = B225455B1B96EA5800A61944 /* Build configuration list for PBXProject "CityU Schedule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B22545571B96EA5800A61944;
+			productRefGroup = B22545611B96EA5800A61944 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B225455F1B96EA5800A61944 /* CityU Schedule */,
+				B22545731B96EA5800A61944 /* CityU ScheduleTests */,
+				B225457E1B96EA5800A61944 /* CityU ScheduleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B225455E1B96EA5800A61944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B225456E1B96EA5800A61944 /* LaunchScreen.storyboard in Resources */,
+				B225456B1B96EA5800A61944 /* Assets.xcassets in Resources */,
+				B22545691B96EA5800A61944 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22545721B96EA5800A61944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B225457D1B96EA5800A61944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B225455C1B96EA5800A61944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22545951B96EB7A00A61944 /* Course.swift in Sources */,
+				B22545661B96EA5800A61944 /* ViewController.swift in Sources */,
+				B22545641B96EA5800A61944 /* AppDelegate.swift in Sources */,
+				B22545971B96EDB900A61944 /* Schedule.swift in Sources */,
+				B22545931B96EACA00A61944 /* Session.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22545701B96EA5800A61944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22545791B96EA5800A61944 /* CityU_ScheduleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B225457B1B96EA5800A61944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22545841B96EA5800A61944 /* CityU_ScheduleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B22545761B96EA5800A61944 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B225455F1B96EA5800A61944 /* CityU Schedule */;
+			targetProxy = B22545751B96EA5800A61944 /* PBXContainerItemProxy */;
+		};
+		B22545811B96EA5800A61944 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B225455F1B96EA5800A61944 /* CityU Schedule */;
+			targetProxy = B22545801B96EA5800A61944 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B22545671B96EA5800A61944 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B22545681B96EA5800A61944 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B225456C1B96EA5800A61944 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B225456D1B96EA5800A61944 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B22545861B96EA5800A61944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B22545871B96EA5800A61944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B22545891B96EA5800A61944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CityU Schedule/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.xinhong.CityU-Schedule";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B225458A1B96EA5800A61944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CityU Schedule/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.xinhong.CityU-Schedule";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B225458C1B96EA5800A61944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CityU ScheduleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.xinhong.CityU-ScheduleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CityU Schedule.app/CityU Schedule";
+			};
+			name = Debug;
+		};
+		B225458D1B96EA5800A61944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CityU ScheduleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.xinhong.CityU-ScheduleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CityU Schedule.app/CityU Schedule";
+			};
+			name = Release;
+		};
+		B225458F1B96EA5800A61944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CityU ScheduleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.xinhong.CityU-ScheduleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "CityU Schedule";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B22545901B96EA5800A61944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CityU ScheduleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.xinhong.CityU-ScheduleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "CityU Schedule";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B225455B1B96EA5800A61944 /* Build configuration list for PBXProject "CityU Schedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22545861B96EA5800A61944 /* Debug */,
+				B22545871B96EA5800A61944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B22545881B96EA5800A61944 /* Build configuration list for PBXNativeTarget "CityU Schedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22545891B96EA5800A61944 /* Debug */,
+				B225458A1B96EA5800A61944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B225458B1B96EA5800A61944 /* Build configuration list for PBXNativeTarget "CityU ScheduleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B225458C1B96EA5800A61944 /* Debug */,
+				B225458D1B96EA5800A61944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B225458E1B96EA5800A61944 /* Build configuration list for PBXNativeTarget "CityU ScheduleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B225458F1B96EA5800A61944 /* Debug */,
+				B22545901B96EA5800A61944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B22545581B96EA5800A61944 /* Project object */;
+}
